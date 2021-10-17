@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Objects">
+      <UniqueIdentifier>{5b3722a7-fc29-4e25-aed1-7a044664cd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SomeLogic">
+      <UniqueIdentifier>{856184c7-5d90-467b-992d-4f687789d882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Compressor">
+      <UniqueIdentifier>{8e22705b-1a06-4aed-a3e7-058c7090aa6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects">
+      <UniqueIdentifier>{2a27020a-8f2e-46ae-af15-030774c0bb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\SomeLogic">
+      <UniqueIdentifier>{d487dc79-5ecf-4f2d-9fc7-277cb1d589d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Compressor">
+      <UniqueIdentifier>{5e29f523-ef6f-4e1e-87bb-caecf29030e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Decompressor">
+      <UniqueIdentifier>{a09769e7-27b5-4a62-935c-7f9fe240fc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Decompressor">
+      <UniqueIdentifier>{108ca090-7ec0-4138-a06c-cf422aca17bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\TypeDef.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileHeader.hpp">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GenericArray.hpp">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashTable.hpp">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CorrectPath.hpp">
+      <Filter>Файлы заголовков\SomeLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\File.hpp">
+      <Filter>Файлы заголовков\SomeLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Compressor.hpp">
+      <Filter>Файлы заголовков\Compressor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Coder.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Decompressor.hpp">
+      <Filter>Файлы заголовков\Decompressor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BFile.hpp">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\FileHeader.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HashTable.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CorrectPath.cpp">
+      <Filter>Исходные файлы\SomeLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="source\File.cpp">
+      <Filter>Исходные файлы\SomeLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Compressor.cpp">
+      <Filter>Исходные файлы\Compressor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Coder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Decompressor.cpp">
+      <Filter>Исходные файлы\Decompressor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BFile.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

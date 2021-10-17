@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZipCore", "ZipCore\ZipCore.vcxproj", "{1EB4DF0D-A439-4558-B3FD-D6E4FFEA42F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxZip", "FoxZip\FoxZip.csproj", "{CCBB7909-C75A-4B03-840F-22D2D777B08D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB4DF0D-A439-4558-B3FD-D6E4FFEA42F4}.Debug|x64.ActiveCfg = Debug|x64
+		{1EB4DF0D-A439-4558-B3FD-D6E4FFEA42F4}.Debug|x64.Build.0 = Debug|x64
+		{1EB4DF0D-A439-4558-B3FD-D6E4FFEA42F4}.Release|x64.ActiveCfg = Release|x64
+		{1EB4DF0D-A439-4558-B3FD-D6E4FFEA42F4}.Release|x64.Build.0 = Release|x64
+		{CCBB7909-C75A-4B03-840F-22D2D777B08D}.Debug|x64.ActiveCfg = Debug|x64
+		{CCBB7909-C75A-4B03-840F-22D2D777B08D}.Debug|x64.Build.0 = Debug|x64
+		{CCBB7909-C75A-4B03-840F-22D2D777B08D}.Release|x64.ActiveCfg = Release|x64
+		{CCBB7909-C75A-4B03-840F-22D2D777B08D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {274DDFE8-235A-4B49-A6BC-F9155237831B}
+	EndGlobalSection
+EndGlobal
